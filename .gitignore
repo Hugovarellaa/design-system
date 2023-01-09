@@ -25,3 +25,4 @@ aula.md
 *.njsproj
 *.sln
 *.sw?
+.turbo
