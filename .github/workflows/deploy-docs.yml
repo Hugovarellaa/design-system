@@ -1,10 +1,11 @@
 name: Deploy docs
 
 on:
-    push:
-        branches:
-            - main
-            
+  push:
+    branches:
+      - main
+
+jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
@@ -15,8 +16,8 @@ on:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: "npm"
-          cache-dependency-path: "**/package-lock.json"
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
 
       - run: npm ci
 
