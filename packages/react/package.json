@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@hugo-ignite-ui/tokens": "*",
     "tsup": "^6.5.0",
