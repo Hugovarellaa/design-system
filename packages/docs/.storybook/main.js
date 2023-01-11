@@ -1,18 +1,18 @@
 module.exports = {
   stories: [
-    "../stories/src/pages/*.stories.mdx",
-    "../stories/src/**/*.stories.tsx",
+    '../src/stories/**/*.stories.mdx',
+    '../src/stories/**/*.stories.tsx',
   ],
   addons: [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
   ],
-  framework: "@storybook/react",
+  framework: '@storybook/react',
   core: {
-    builder: "@storybook/builder-vite",
+    builder: '@storybook/builder-vite',
   },
   features: {
     storyStoreV7: true,
   },
-};
+}
