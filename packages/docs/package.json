@@ -12,6 +12,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@hugo-ignite-ui/react": "*",
+    "@hugo-ignite-ui/tokens": "*",
+    "@hugo-ignite-ui/eslint-config": "*",
     "@babel/core": "^7.20.12",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-essentials": "^6.5.15",
