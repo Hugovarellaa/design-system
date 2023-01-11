@@ -1,3 +1,3 @@
-import { colors } from "@hugo-ignite-ui/tokens";
+import { colors } from '@hugo-ignite-ui/tokens'
 
-console.log(colors);
+console.log(colors)
