@@ -7,7 +7,7 @@ import {
   radii,
   space,
 } from '@hugo-ignite-ui/tokens'
-import { createStitches } from '@stitches/react'
+import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
   config,
@@ -19,6 +19,11 @@ export const {
   styled,
   theme,
 } = createStitches({
+  themeMap: {
+    ...defaultThemeMap,
+    width: 'space',
+    height: 'space',
+  },
   theme: {
     colors,
     fontSizes,
