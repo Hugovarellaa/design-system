@@ -5,6 +5,20 @@ import { ArrowRight } from 'phosphor-react'
 export default {
   title: 'Form/Button',
   component: Button,
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
   args: {
     children: 'Send',
   },
