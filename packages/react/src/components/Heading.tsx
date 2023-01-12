@@ -24,6 +24,6 @@ export const Heading = styled('h2', {
   },
 })
 
-export interface TextProps extends ComponentProps<typeof Heading> {
+export interface HeadingProps extends ComponentProps<typeof Heading> {
   as?: ElementType
 }
