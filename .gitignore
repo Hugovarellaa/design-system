@@ -25,3 +25,9 @@ aula.md
 *.njsproj
 *.sln
 *.sw?
+
+#Build Storybook
+storybook-static
+
+#Turbo repo
+.turbo
