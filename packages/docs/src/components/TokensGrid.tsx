@@ -1,10 +1,12 @@
+import '../styles/tokens-grid.css'
+
 interface TokensGridProps {
   tokens: Record<string, string>
 }
 
 export function TokensGrid({ tokens }: TokensGridProps) {
   return (
-    <table>
+    <table className="tokens-grid">
       <thead>
         <tr>
           <th>Name</th>
