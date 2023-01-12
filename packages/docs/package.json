@@ -12,10 +12,11 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@hugo-ignite-ui/eslint-config": "*",
+    "@hugo-ignite-ui/ts-config": "*",
     "@hugo-ignite-ui/react": "*",
     "@hugo-ignite-ui/tokens": "*",
-    "@hugo-ignite-ui/eslint-config": "*",
-    "@babel/core": "^7.20.12",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",
@@ -28,6 +29,7 @@
     "vite": "^4.0.4"
   },
   "dependencies": {
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
