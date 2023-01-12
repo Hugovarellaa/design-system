@@ -1258,6 +1258,7 @@
   dependencies:
     "@radix-ui/react-avatar" "^1.0.1"
     "@stitches/react" "^1.2.8"
+    "phosphor-react" "^1.4.1"
 
 "@hugo-ignite-ui/tokens@*", "@hugo-ignite-ui/tokens@file:/home/hugo/dev/react-js/05-design-system/design-system/packages/tokens":
   "resolved" "file:packages/tokens"
