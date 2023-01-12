@@ -11,6 +11,13 @@ export const Primary: StoryObj<AvatarProps> = {
     src: 'https://github.com/Hugovarellaa.png',
     alt: 'Hugo Alves Varella',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 }
 
 export const WithFallback: StoryObj<AvatarProps> = {
