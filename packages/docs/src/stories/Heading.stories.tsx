@@ -7,6 +7,14 @@ export default {
   args: {
     children: 'Custom title',
   },
+  argTypes: {
+    size: {
+      options: ['xl', '2xl', '4xl', '5xl', '6xl', '7xl', '8xl', '9xl'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {}
