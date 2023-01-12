@@ -2,7 +2,7 @@ import { Box, Text, TextInput, TextInputProps } from '@hugo-ignite-ui/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Form/TextInput',
+  title: 'Form/Text Input',
   component: TextInput,
   args: {},
   decorators: [
@@ -12,7 +12,7 @@ export default {
         css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
       >
         <Text size="sm">Email address</Text>
-        <Story />
+        {Story()}
       </Box>
     ),
   ],

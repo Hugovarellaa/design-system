@@ -15,3 +15,5 @@ export function Avatar({ ...rest }: AvatarProps) {
     </AvatarContainer>
   )
 }
+
+Avatar.displayName = 'Avatar'

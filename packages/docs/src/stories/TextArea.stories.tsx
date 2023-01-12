@@ -2,7 +2,7 @@ import { Box, Text, TextArea, TextAreaProps } from '@hugo-ignite-ui/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Form/TextAreaInput',
+  title: 'Form/Text Area',
   component: TextArea,
   args: {},
   decorators: [
@@ -12,7 +12,7 @@ export default {
         css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}
       >
         <Text size="sm">Observations</Text>
-        <Story />
+        {Story()}
       </Box>
     ),
   ],
@@ -20,7 +20,7 @@ export default {
 
 export const Primary: StoryObj<TextAreaProps> = {
   args: {
-    placeholder: 'Add any <observations className=" "></observations>.',
+    placeholder: 'Add any observations...',
   },
 }
 
