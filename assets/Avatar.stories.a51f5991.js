@@ -1,0 +1,2 @@
+import{A as t}from"./index.6fff90d5.js";import"./index.186d1b23.js";import"./iframe.b57ab5c0.js";import"./index.afc104ad.js";import"./jsx-runtime.c4bbeae3.js";const l={title:"Data display/Avatar",component:t},e={args:{src:"https://github.com/Hugovarellaa.png",alt:"Hugo Alves Varella"},argTypes:{src:{control:{type:"text"}}}},p={args:{src:void 0,alt:void 0}},c=["Primary","WithFallback"];export{e as Primary,p as WithFallback,c as __namedExportsOrder,l as default};
+//# sourceMappingURL=Avatar.stories.a51f5991.js.map
